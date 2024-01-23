@@ -11,12 +11,14 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px 240px;
+    flex: 1;
 }
 
 .header-links {
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    flex: 0.5;
 }
 
 .web-hero {
@@ -49,6 +51,7 @@ body {
 .information {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .info-header {
@@ -59,14 +62,15 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 .info-box {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 120px;
-    padding: 64px 120px;
+
 }
 
 .info-image {
@@ -76,8 +80,27 @@ body {
     border-radius: 16px;
 }
 
+.info-text {
+    width: 10%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px 20%;
+}
+
+.quote-credit {
+    text-align: right;
+}
+
+
 .call {
     display: flex;
     justify-content: center;
     gap: 120px;
+    padding: 64px 25%;
+    background-color: #3882f6;
+    border-radius: 32px;
 }
